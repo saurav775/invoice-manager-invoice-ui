@@ -1,0 +1,26 @@
+.invoice_details_content_wrp {
+    margin-bottom: 2.4rem;
+    background-color: #fff;
+    padding: 2.4rem;
+}
+
+.invoice_details_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    p:not(:last-child) {
+        text-transform: capitalize;
+    }
+    &:not(:last-child) {
+        margin-bottom: 1.6rem;
+    }
+}
+
+.invoice_details_amount_wrp {
+    display: flex;
+    justify-content: flex-end;
+    padding: 2.4rem;
+    p:not(:last-child) {
+        text-transform: capitalize;
+        margin-right: 2.4rem;
+    }
+}

@@ -1,0 +1,45 @@
+.form-invoice-details-wrp {
+  margin: 2.4rem 0;
+  display: flex;
+  flex-direction: column;
+  td {
+    input {
+      border: 0;
+      outline: none;
+      text-align: center;
+    }
+  }
+  .form-total-amount {
+    display: flex;
+    align-self: flex-end;
+    padding-right: 1.4rem;
+    margin-top: 1.2rem;
+  }
+}
+
+.add-product-wrp {
+  display: flex;
+  align-items: center;
+  .form-element {
+    flex: 1;
+  }
+  button {
+    margin-left: 2.4rem;
+  }
+}
+
+.invoice-form {
+  .form-input-wrp {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.4rem;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .invoice-form {
+    .form-input-wrp {
+      grid-template-columns: 1fr;
+    }
+  }
+}

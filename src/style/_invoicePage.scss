@@ -1,0 +1,17 @@
+.invoice-page-wrp {
+  .invoice-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2.4rem;
+    button {
+      width: fit-content;
+      align-self: flex-end;
+    }
+    .create-btn-wrp {
+      button:not(:last-child) {
+        margin-right: 1.2rem;
+      }
+    }
+  }
+}
