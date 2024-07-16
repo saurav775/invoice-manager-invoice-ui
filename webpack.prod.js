@@ -12,6 +12,7 @@ module.exports = () => {
     output: {
       path: path.join(__dirname, "dist"),
       filename: "bundle.[name].[contenthash].js",
+      publicPath: "https://invoice-manager-invoice-ui.vercel.app/",
     },
     plugins: [
       new ModuleFederationPlugin({
